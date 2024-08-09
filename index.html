@@ -10,23 +10,155 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
-
     <header>
-        
+      <!-- <nav class="navbar  bg-gradient d-flex  justify-content-between nav-logo py-4  "> -->
+      <div
+        class="container-fluid bg-gradient d-flex justify-content-between nav-logo py-4"
+      >
+        <a
+          class="navbar-brand w-50 text-white text-start px-5 fw-bold fs-3"
+          href="#"
+          >START BOOTSTRAP</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="w-50 px-3" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav mb-2 mb-lg-0 ms-auto px-5 d-flex flex-row justify-content-evenly"
+          >
+            <li class="nav-item px-3 py-1 rounded bg-success bg-gradient">
+              <a
+                class="nav-link active text-white fw-bold link-success"
+                aria-current="page"
+                href="#"
+                >PORTFOLIO</a
+              >
+            </li>
+            <li class="nav-item px-3 py-1 rounded">
+              <a class="nav-link text-white fw-bold link-success" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item dropdown px-3 py-1 rounded ">
+              <a
+                class="nav-link dropdown-toggle text-white fw-bold link-success"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                CONTACT
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
+    <section class="main-section py-5">
+      <div
+        class="container d-flex flex-column align-items-center mt-5 main-content h-100 justify-content-evenly"
+      >
+        <img src="./images/avatar.svg" class="w-25" alt="avatar" />
+        <h1 class="fw-bold text-light">START BOOTSTRAP</h1>
 
+        <div class="main-icon">
+          <div class="div-line"></div>
+          <i class="fa-solid fa-star text-light my-star"></i>
+          <div class="div-line"></div>
+        </div>
+        <p class="fs-4 text-light">
+          Graphic Artist - Web Designer - Illustrator
+        </p>
+      </div>
+    </section>
 
+    <section class="bg-light py-5">
+      <div class="container d-flex flex-column row-gap-3 mt-5">
+        <h2 class="portfolio fw-bold text-center">PORTFOLIO</h2>
+        <div class="main-icon w-25 m-auto">
+          <div class="div-line" data-myicon-color="mycolor"></div>
+          <i class="fa-solid fa-star my-star" data-mystar-color="mystar"></i>
+          <div class="div-line" data-myicon-color="mycolor"></div>
+        </div>
 
+        <div class="row row-gap-3 mt-3 mb-5">
+          <div class="col-4">
+            <img src="./images/pasta.jpg" alt="pasta" class="pasta" />
+          </div>
 
+          <div class="col-4">
+            <img src="./images/tort.jpg" alt="pasta" class="pasta" />
+          </div>
+
+          <div class="col-4">
+            <img src="./images/console.jpg" alt="pasta" class="pasta" />
+          </div>
+
+          <div class="col-4">
+            <img src="./images/xbox.webp" alt="pasta" class="pasta" />
+          </div>
+
+          <div class="col-4">
+            <img src="./images/safe.jpg" alt="pasta" class="pasta" />
+          </div>
+
+          <div class="col-4">
+            <img src="./images/submarine.png" alt="pasta" class="pasta" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container py-5">
+        <h2 class="fw-bold text-center fs-1 text-light">ABOUT</h2>
+
+        <div class="main-icon w-25 m-auto">
+          <div class="div-line"></div>
+          <i class="fa-solid fa-star text-light my-star"></i>
+          <div class="div-line"></div>
+        </div>
+
+        <div class="two-paragraph d-flex justify-content-center column-gap-3 mt-4">
+          <p class="w-25 fs-5 text-light">
+            Freelancer is a free bootstrap theme created by Start Bootstrap. The
+            download includes the complete source files including HTML, CSS, and
+            JavaScript as well as optional SASS stylesheets for easy
+            customization.
+          </p>
+          <p class="w-25 fs-5 text-light">
+            You can create your own custom avatar for the masthead, change the
+            icon in the dividers, and add your email address to the contact form
+            to make it fully functional!
+          </p>
+        </div>
+
+        <div class="text-center py-5 ">
+          <a href="#" class="p-4 border text-decoration-none text-light rounded border-2"><i class="fa-solid fa-download me-3"></i>FREE DOWNLOAD</a>
+        </div>
+
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/ce719a183f.js"
       crossorigin="anonymous"
     ></script>
   </body>
